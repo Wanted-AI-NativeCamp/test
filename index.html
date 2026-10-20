@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>클래스로(Classro) | 동네 공방 원데이 클래스 예약</title>
+  <meta name="description" content="동네 공방·작업실의 원데이 클래스를 앱에서 찾고 바로 예약·결제하는 서비스, 클래스로.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 헤더 -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">클래스로<span>Classro</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#about">회사 소개</a>
+        <a href="#classes">클래스</a>
+        <a href="#flow">이용 방법</a>
+        <a href="#numbers">숫자로 보기</a>
+        <a href="#news">소식</a>
+        <a href="#contact" class="nav__cta">제휴 문의</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- 히어로 -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">동네 공방 원데이 클래스 예약 서비스</p>
+          <h1>오늘 하루,<br>손으로 무언가를<br>만들어 보세요.</h1>
+          <p class="hero__desc">
+            도자기, 베이킹, 가죽공예, 플라워, 드로잉, 향수까지.<br>
+            가까운 공방의 원데이 클래스를 찾고, 앱에서 바로 예약·결제하세요.
+          </p>
+          <div class="hero__actions">
+            <a href="#classes" class="btn btn--primary">클래스 둘러보기</a>
+            <a href="#about" class="btn btn--ghost">클래스로 알아보기</a>
+          </div>
+          <p class="hero__platform">iOS · Android 앱 · 모바일 웹</p>
+        </div>
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="tile tile--a">🏺<span>도자기</span></div>
+          <div class="tile tile--b">🥐<span>베이킹</span></div>
+          <div class="tile tile--c">👜<span>가죽공예</span></div>
+          <div class="tile tile--d">💐<span>플라워</span></div>
+          <div class="tile tile--e">🎨<span>드로잉</span></div>
+          <div class="tile tile--f">🧴<span>향수</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 회사 소개 -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__head reveal">
+          <p class="eyebrow">About</p>
+          <h2>동네의 손재주를<br>더 많은 사람에게.</h2>
+        </div>
+        <div class="about__body reveal">
+          <p>
+            클래스로는 2023년 3월, 동네 공방과 작업실의 원데이 클래스를 누구나 쉽게
+            찾고 예약할 수 있도록 시작했습니다. 전화와 DM으로 일정을 맞추던 번거로움 대신,
+            앱에서 날짜와 인원을 고르고 바로 결제까지 마칠 수 있습니다.
+          </p>
+          <dl class="info">
+            <div><dt>설립</dt><dd>2023년 3월</dd></div>
+            <div><dt>대표</dt><dd>한서윤</dd></div>
+            <div><dt>구성원</dt><dd>30명</dd></div>
+            <div><dt>서비스</dt><dd>iOS · Android 앱, 모바일 웹</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- 클래스 카테고리 -->
+    <section class="section section--tint" id="classes">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Classes</p>
+          <h2>여섯 가지 손작업, 원하는 대로 골라 보세요</h2>
+        </div>
+        <ul class="cards">
+          <li class="card reveal"><span class="card__icon">🏺</span><h3>도자기</h3><p>물레와 핸드빌딩으로 나만의 그릇과 컵을 빚어요.</p></li>
+          <li class="card reveal"><span class="card__icon">🥐</span><h3>베이킹</h3><p>쿠키, 타르트, 빵까지 오늘 구워 오늘 가져가요.</p></li>
+          <li class="card reveal"><span class="card__icon">👜</span><h3>가죽공예</h3><p>카드지갑, 키링 등 오래 쓰는 소품을 직접 만들어요.</p></li>
+          <li class="card reveal"><span class="card__icon">💐</span><h3>플라워</h3><p>계절 꽃으로 꽃다발과 센터피스를 완성해요.</p></li>
+          <li class="card reveal"><span class="card__icon">🎨</span><h3>드로잉</h3><p>연필, 수채화, 오일파스텔로 일상을 그려요.</p></li>
+          <li class="card reveal"><span class="card__icon">🧴</span><h3>향수</h3><p>취향에 맞는 향을 조향해 나만의 향수를 만들어요.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 이용 방법 -->
+    <section class="section" id="flow">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">How it works</p>
+          <h2>찾고, 고르고, 바로 예약까지</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal"><span class="step__num">01</span><h3>검색 · 탐색</h3><p>지역과 카테고리로 가까운 클래스를 찾아요.</p></li>
+          <li class="step reveal"><span class="step__num">02</span><h3>클래스 상세</h3><p>커리큘럼, 소요 시간, 후기를 한눈에 확인해요.</p></li>
+          <li class="step reveal"><span class="step__num">03</span><h3>날짜 · 인원 선택</h3><p>원하는 일정과 함께할 인원을 골라요.</p></li>
+          <li class="step reveal"><span class="step__num">04</span><h3>결제</h3><p>간편결제로 몇 번의 탭이면 끝나요.</p></li>
+          <li class="step reveal"><span class="step__num">05</span><h3>예약 완료</h3><p>예약 내역과 공방 위치를 앱에서 바로 확인해요.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 숫자로 보기 -->
+    <section class="section section--dark" id="numbers">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">In numbers</p>
+          <h2>숫자로 보는 클래스로</h2>
+          <p class="section__note">2026년 9월 기준</p>
+        </div>
+        <div class="stats">
+          <div class="stat reveal">
+            <p class="stat__value"><span class="count" data-target="420">0</span><small>곳</small></p>
+            <p class="stat__label">제휴 공방 (약)</p>
+          </div>
+          <div class="stat reveal">
+            <p class="stat__value"><span class="count" data-target="7000">0</span><small>건</small></p>
+            <p class="stat__label">월 예약 (약)</p>
+          </div>
+          <div class="stat reveal">
+            <p class="stat__value"><span class="count" data-target="42000">0</span><small>원</small></p>
+            <p class="stat__label">1인 평균 결제액</p>
+          </div>
+          <div class="stat reveal">
+            <p class="stat__value"><span class="count" data-target="30">0</span><small>명</small></p>
+            <p class="stat__label">함께하는 구성원</p>
+          </div>
+        </div>
+
+        <div class="region reveal">
+          <h3>지역별 제휴 공방</h3>
+          <div class="bar"><span class="bar__label">서울</span><div class="bar__track"><div class="bar__fill" data-width="66.7"></div></div><span class="bar__value">280곳</span></div>
+          <div class="bar"><span class="bar__label">경기</span><div class="bar__track"><div class="bar__fill" data-width="26.2"></div></div><span class="bar__value">110곳</span></div>
+          <div class="bar"><span class="bar__label">기타</span><div class="bar__track"><div class="bar__fill" data-width="7.1"></div></div><span class="bar__value">30곳</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 팀 -->
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Team</p>
+          <h2>클래스로를 만드는 30명</h2>
+        </div>
+        <ul class="team">
+          <li class="reveal"><strong>11</strong><span>개발</span></li>
+          <li class="reveal"><strong>4</strong><span>디자인</span></li>
+          <li class="reveal"><strong>3</strong><span>PO</span></li>
+          <li class="reveal"><strong>5</strong><span>마케팅</span></li>
+          <li class="reveal"><strong>5</strong><span>운영 · CS</span></li>
+          <li class="reveal"><strong>2</strong><span>경영지원</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 소식 -->
+    <section class="section section--tint" id="news">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">News</p>
+          <h2>클래스로 소식</h2>
+        </div>
+        <ul class="news">
+          <li class="news__item reveal">
+            <time datetime="2026-09-28">2026.09.28</time>
+            <div>
+              <h3>앱 v2.3.0 업데이트</h3>
+              <p>결제 화면을 새롭게 개편하고 간편결제를 추가했습니다.</p>
+            </div>
+          </li>
+          <li class="news__item reveal">
+            <time datetime="2023-03">2023.03</time>
+            <div>
+              <h3>클래스로 설립</h3>
+              <p>동네 공방 원데이 클래스 예약 서비스를 시작했습니다.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 제휴 문의 -->
+    <section class="section" id="contact">
+      <div class="container contact reveal">
+        <div>
+          <p class="eyebrow">Partnership</p>
+          <h2>공방을 운영하고 계신가요?</h2>
+          <p>클래스로와 함께 더 많은 수강생을 만나 보세요. 예약 건당 수수료 15%로, 별도 가입비 없이 시작할 수 있습니다.</p>
+        </div>
+        <form class="form" id="contactForm" novalidate>
+          <label>공방 이름<input type="text" name="studio" required></label>
+          <label>연락처 (이메일)<input type="email" name="email" required></label>
+          <label>클래스 분야
+            <select name="category">
+              <option>도자기</option><option>베이킹</option><option>가죽공예</option>
+              <option>플라워</option><option>드로잉</option><option>향수</option><option>기타</option>
+            </select>
+          </label>
+          <button type="submit" class="btn btn--primary">제휴 문의 보내기</button>
+          <p class="form__msg" id="formMsg" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="logo">클래스로<span>Classro</span></p>
+      <p>대표 한서윤 · 설립 2023년 3월</p>
+      <p class="footer__note">※ 수업용 가상 회사입니다. 등장하는 회사·인물·수치는 모두 지어낸 것입니다.</p>
+      <p>&copy; <span id="year"></span> Classro. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
