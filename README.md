@@ -4,6 +4,10 @@
 
 > 수업용 가상 회사입니다. 등장하는 회사·인물·수치는 모두 지어낸 것입니다.
 
+## 배포 주소
+
+🔗 https://resonant-dodol-53a371.netlify.app (Netlify)
+
 ## 실행 방법
 
 별도 설치 없이 `index.html` 파일을 브라우저로 열면 됩니다.
